@@ -1,4 +1,4 @@
-- name: _Run_markdown_lint_
+- name: Markdown lint
   run: |
     npm install remark-cli remark-preset-lint-consistent
     npx remark . --use remark-preset-lint-consistent --frail
